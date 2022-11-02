@@ -56,22 +56,10 @@ def lesing(liste):
 
 def datocheck(liste, dato):
     f = liste.readline()
-    gruppe = {}
+    gruppe ={}
     while f != "":
         f = f.rstrip("\n")
         f = f.split(";")
-        if f[2] = dato:
-            
-
-#Fil = open("Avtaler.txt", "r")
-#Gruppe2 = lesing(Fil)
-
-#i = 0
-#Gruppe = {}
-#while i < 20:
-    #avtale = Avtale(i, i, i, i)
-    #Gruppe[i] = avtale
-    #i += 1
-#liste(Gruppe, "Her er gruppen")
-#lagring(Gruppe)
-
+        if f == [2]:
+            return f
+            print(f)
